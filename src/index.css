@@ -23,3 +23,15 @@
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
+
+.icon-time::-webkit-calendar-picker-indicator {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjQgNjQiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiPjxwYXRoIGQ9Ik0tMzQ2LjEtMzczLjFjLTEyLjYgMC0yMi45LTEwLjMtMjIuOS0yMi45IDAtMTIuNiAxMC4zLTIyLjkgMjIuOS0yMi45IDEyLjYgMCAyMi45IDEwLjMgMjIuOSAyMi45LjEgMTIuNi0xMC4yIDIyLjktMjIuOSAyMi45em0wLTQzLjRjLTExLjMgMC0yMC40IDkuMi0yMC40IDIwLjRzOS4yIDIwLjQgMjAuNCAyMC40IDIwLjQtOS4yIDIwLjQtMjAuNC05LjEtMjAuNC0yMC40LTIwLjR6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNzggNDI4KSIgZmlsbD0iI2ZmZmZmZiIgY2xhc3M9ImZpbGwtMTM0NTYzIj48L3BhdGg+PHBhdGggZD0ibS0zMzguOS0zODQuMy04LjUtOC41di0xNS41aDIuN3YxNC40bDcuNyA3LjctMS45IDEuOSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzc4IDQyOCkiIGZpbGw9IiNmZmZmZmYiIGNsYXNzPSJmaWxsLTEzNDU2MyI+PC9wYXRoPjwvc3ZnPg==");
+    cursor: pointer;
+}
+
+.icon-time::-webkit-datetime-edit-hour-field:focus,
+.icon-time::-webkit-datetime-edit-minute-field:focus,
+.icon-time::-webkit-datetime-edit-second-field:focus,
+.icon-time::-webkit-datetime-edit-ampm-field:focus {
+  background-color: #374151;
+}

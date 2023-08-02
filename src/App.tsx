@@ -1,4 +1,5 @@
 import './App.css'
+import { Checkbox } from './components/Checkbox';
 import { Input } from './components/Input';
 import { Menu } from './components/Menu';
 import { Subtitle } from './components/Subtitle';
@@ -28,6 +29,7 @@ function App() {
             <Input labelInput='Almoço volta' />
             <Input labelInput='Saída' />
           </div>
+          <Checkbox IdCheckbox='saidaAuto' labelCheckbox='Preencher saída automaticamente' />
         </div>
       </div>
     </div>

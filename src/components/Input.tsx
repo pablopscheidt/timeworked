@@ -10,7 +10,7 @@ export function Input({ labelInput } : InputProps ) {
         type="time"
         defaultValue="00:00"
         name=""
-        className="bg-gray-800 border-gray-600 border-2 rounded py-1 px-4 icon-time outline-none cursor-pointer"
+        className="bg-gray-800 border-gray-600 border-2 rounded py-1 px-4 icon-time outline-none cursor-pointer min-w-[110px] text-center"
         />
     </label>
   )
